@@ -59,7 +59,7 @@ def event_loop():
                 to_write[socket] = task
 
         except StopIteration:
-            pass
+            print("Done")
 
 
 tasks.append(server())
